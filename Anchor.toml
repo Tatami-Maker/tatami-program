@@ -3,6 +3,10 @@
 [features]
 seeds = false
 skip-lint = false
+idl-build = [
+    "anchor-lang/idl-build",
+    "anchor-spl/idl-build",
+]
 
 [programs.localnet]
 tatami_v2 = "HrKLeJB6yoSWkFzVSfsg8Yi3Zs4PKZ7qqjkMz978qqZv"
@@ -11,7 +15,7 @@ tatami_v2 = "HrKLeJB6yoSWkFzVSfsg8Yi3Zs4PKZ7qqjkMz978qqZv"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = 'C:\Users\acer\.config/solana/id.json'
 
 [scripts]
